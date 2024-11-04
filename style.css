@@ -1,0 +1,144 @@
+body{
+  background-color: #FAF7F0;
+  color: #898121;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  line-height:1.6;
+  letter-spacing: 2px;
+
+}
+h1{
+  color:#F87A53;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+h3{
+  color: #F87A53;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+}
+
+h2{
+  color: #4C4B16;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  display: block;
+  text-align: center;
+}
+a:hover{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  display: block;
+  text-align: center;
+
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+  background-color: #FAF7F0 ;
+
+}
+
+@media (max-width: 760px){
+  .container{
+    width: 650px;
+  }
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 500px;
+  }
+}
+
+
+.box-white{
+  background: white;
+  padding: 50px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  text-align: justify;
+}
+
+.box-petit {
+  background: white;
+  padding: 50px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  text-align: justify;
+
+}
+.image-circle {
+  border-radius: 50%;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid cadetblue;
+}
+
+.btn-green{
+  background-color: #257180;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  transition: color 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: #F87A53;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-right: 50px;
+  margin-left: 140px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 60px;
+  color: beige;
+}
+.list-inline i:hover{
+  font-size: 60px;
+  color: #F87A53;
+}
